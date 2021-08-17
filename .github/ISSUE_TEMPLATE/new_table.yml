@@ -1,7 +1,6 @@
 name: New Table
 description: Request a new table
 title: "[Table]: "
-assignees:
 
 body:
   - type: markdown
