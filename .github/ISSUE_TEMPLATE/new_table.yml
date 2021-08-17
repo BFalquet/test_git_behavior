@@ -1,4 +1,4 @@
-name: New table
+name: New Table
 description: Request a new table
 title: "[Table]: "
 assignees:
@@ -27,7 +27,6 @@ body:
     validations:
       required: true
 
-#######
   - type: textarea
     id: analysis_dataset
     attribute:
