@@ -67,7 +67,8 @@ body:
   id: remove_0
   attributes:
     label: "Treatment of Zero count rows"
-    options: "Specify default behavior"
+    description: "Specify default behavior"
+    options:
       - "Remove rows with zero count by default"
       - "Keep rows with zero count by default"
       - "Always ask for user input"
