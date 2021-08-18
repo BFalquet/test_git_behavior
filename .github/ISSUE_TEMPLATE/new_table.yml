@@ -6,7 +6,6 @@ body:
 
  
 - type: textarea
-    id: table_name
     attributes:
       label: "Table Name"
       description: "Standard name of the table"
