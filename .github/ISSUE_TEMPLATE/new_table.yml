@@ -64,3 +64,15 @@ body:
     description: "A Description of the statistical procedure"
     value: "ex. Frequency count and % (based on N)"
 
+
+ -type: dropdown
+  id: remove_0
+  attributes:
+    label: "Treatment of Zero count rows"
+    multiple: false
+    options:
+      - "Remove rows with zero count by default"
+      - "Keep rows with zero count by default"
+      - "Always ask for user input"
+      - "Not applicable / other"
+  
