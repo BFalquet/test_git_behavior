@@ -44,7 +44,7 @@ body:
     
 - type: textarea
   id: column_variables
-    attributes:
+  attributes:
     label: "Column Variable"
     description: "Names of the columns in the input dataset used to split the table" 
     value: "ex. ACTARM"
