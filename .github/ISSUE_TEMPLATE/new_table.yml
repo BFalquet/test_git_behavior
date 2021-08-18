@@ -62,9 +62,9 @@ body:
   attributes:
     label: "Analysis concept"
     description: "some description"
-    value: ex. \\n - Serious AE 
+    value: "ex. \\n - Serious AE 
                \n - Related AE
-               <p> - Other AE
+               <p> - Other AE"
                
     
 - type: textarea
