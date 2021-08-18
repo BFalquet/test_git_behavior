@@ -61,7 +61,7 @@ body:
   id: analysis_concept
   attributes:
     label: "Analysis concept"
-    description: " "
+    description: "some description"
     value: "ex. * Serious AE 
                 * Related AE"
     
