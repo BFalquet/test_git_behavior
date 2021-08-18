@@ -5,3 +5,9 @@ body:
 - type: markdown
   attributes:
     value: "some values"
+    
+- type: textarea
+  attributes:
+      label: "Description"
+      description: "Details on the generic pupose of the table (optional)"
+      value: "ex. an adverse event table"
