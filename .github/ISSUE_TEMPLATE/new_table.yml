@@ -58,6 +58,14 @@ body:
     value: "ex. AEBODSYS, AEDECOD, ASEV"
     
 - type: textarea
+  id: analysis_concept
+  attributes:
+    label: "Analysis concept"
+    description: " "
+    value: "ex. * Serious AE 
+                * Related AE"
+    
+- type: textarea
   id: statistics
   attributes:
     label: "Statistics"
@@ -75,3 +83,8 @@ body:
       - "Always ask for user input"
       - "Not applicable / Other"
   
+- type: textarea
+  id: comments
+  attributes:
+    label: "Additional comments"
+    value: "ex. Some additional details"
