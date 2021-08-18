@@ -61,10 +61,10 @@ body:
   id: analysis_concept
   attributes:
     label: "Analysis concept"
-    description: "some description"
-    value: "ex. \\n - Serious AE 
-               \n - Related AE
-               <p> - Other AE"
+    description: "An alternative description "
+    value: "ex. \n - Serious AE 
+                \n - Related AE
+                \n - Total number of AEs"
                
     
 - type: textarea
