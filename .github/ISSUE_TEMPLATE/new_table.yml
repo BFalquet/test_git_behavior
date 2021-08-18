@@ -62,8 +62,8 @@ body:
   attributes:
     label: "Analysis concept"
     description: "some description"
-    value: ex. * Serious AE 
-                * Related AE
+    value: ex. - Serious AE 
+               - Related AE
     
 - type: textarea
   id: statistics
