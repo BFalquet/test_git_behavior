@@ -1,5 +1,4 @@
 name: New Table
-description: File a bug report
 
 body:
 
@@ -7,16 +6,34 @@ body:
   attributes:
     value: "Please describe the characteristics of the required table"
 
-- type: textarea
+- type: input
+  id: table_name
   attributes:
     label: "Table Name"
     description: "Standard name of the table"
     placeholder: "ex. AET02"
       
-- type: textarea
+- type: input
   id: table_pupose
   attributes:
     label: "Description"
     description: "Details on the generic pupose of the table (optional)"
-    value: "ex. an adverse event table"
+    placeholder: "ex. an adverse event table"
+    
+- type: input
+  id: analysis_dataset
+  attributes:
+    label: "Analysis dataset"
+    description: "Name of the standard dataset input"
+    placeholder: "ex. ADAE"
+    
+- type: textarea
+  id: analysis_filtering
+  attribute:
+    label: Analysis filtering
+    description: Filtering criteria of the input
+    value: ex. ANL01FL="Y"
+    
+    
+ 
    
