@@ -40,7 +40,7 @@ body:
   id: analysis_population
   attributes:
     label: "Analysis population"
-    description: 
+    description: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     value: "ex. SE"
     
 - type: textarea
@@ -54,14 +54,14 @@ body:
   id: analysis_variables
   attributes:
     label: "Analysis variables"
-    description: "The name of the spliting variables in hierarchical order"
+    description: "The names of the splitting variables in hierarchical order"
     value: "ex. AEBODSYS, AEDECOD, ASEV"
     
 - type: textarea
   id: analysis_concept
   attributes:
     label: "Analysis concept"
-    description: "An alternative description "
+    description: "An alternative description xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     value: "ex. \n - Serious AE 
                 \n - Related AE
                 \n - Total number of AEs"
