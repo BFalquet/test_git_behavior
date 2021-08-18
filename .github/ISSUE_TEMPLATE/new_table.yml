@@ -2,12 +2,28 @@ name: New Table
 description: File a bug report
 
 body:
+
 - type: markdown
-  attributes:
-    value: "some values"
-    
+    attributes:
+    value: |
+        "Please describe the characteristics of the required table"
+
+ 
 - type: textarea
-  attributes:
+    id: table_name
+    attributes:
+      label: "Table Name"
+      description: "Standard name of the table"
+      placeholder: "ex. AET02"
+    validations:
+      required: false
+      
+- type: textarea
+    id: table_pupose
+    attributes:
       label: "Description"
       description: "Details on the generic pupose of the table (optional)"
       value: "ex. an adverse event table"
+    validations:
+      required: true
+   
