@@ -3,9 +3,6 @@ description: File a bug report
 
 body:
 
-- type: markdown
-    attributes:
-      value: "Please describe the characteristics of the required table"
 
  
 - type: textarea
