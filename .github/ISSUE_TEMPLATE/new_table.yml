@@ -2,6 +2,6 @@ name: New Table
 description: File a bug report
 
 body:
-  type: markdown,
+- type: markdown,
   attributes:
-    value: some values
+    value: "some values"
